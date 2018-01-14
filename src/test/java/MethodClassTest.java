@@ -24,5 +24,6 @@ public class MethodClassTest {
         int[] actual = mc.recursion(arr);
         int[] expected = new int[]{3,2,1};
         assertArrayEquals(expected,actual);
+
     }
 }

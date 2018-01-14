@@ -1,5 +1,20 @@
 
 public class MethodClass {
+    int a;
+    int b;
+    int c;
+    // попрактикуемся с конструктором,  что это для чего он нужен.
+    // он нужен для инициализации полей
+    MethodClass(){
+        a=10;
+        b=10;
+        c=100;
+    }
+
+    // создадим метод для конструктора
+    protected int Sum(){
+        return a*b*c;
+    }
 
     // search method for arrays
     public int search(int[] array, int target) {
