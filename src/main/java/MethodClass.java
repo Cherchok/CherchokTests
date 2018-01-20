@@ -61,7 +61,7 @@ public class MethodClass {
 
     // метод менающий строку
     public String changeIt(String str){
-        str = new String("Hello");
+        str = "Hello";
         return str;
     }
 

@@ -13,7 +13,7 @@ public class Main {
         System.out.println(Arrays.toString(new int[]{methodClass.search(arr, 9)}));
         System.out.println(methodClass.Sum());
 
-        String str = new String("Hi friends. You dont expect me!))");
+        String str = "Hi friends. You dont expect me!))";
         methodClass.changeIt(str);
         System.out.println(str);
     }
