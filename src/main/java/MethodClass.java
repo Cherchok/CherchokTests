@@ -59,4 +59,10 @@ public class MethodClass {
         return n*factorial(n-1);
     }
 
+    // метод менающий строку
+    public String changeIt(String str){
+        str = new String("Hello");
+        return str;
+    }
+
 }

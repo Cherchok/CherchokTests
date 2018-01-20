@@ -12,5 +12,9 @@ public class Main {
         int[] arr = new int[]{1,5,7,9};
         System.out.println(Arrays.toString(new int[]{methodClass.search(arr, 9)}));
         System.out.println(methodClass.Sum());
+
+        String str = new String("Hi friends. You dont expect me!))");
+        methodClass.changeIt(str);
+        System.out.println(str);
     }
 }
