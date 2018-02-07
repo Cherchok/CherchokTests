@@ -1,0 +1,1 @@
+enum EnumExample{WINTER, SPRING, SUMMER, AUTUMN}
